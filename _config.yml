@@ -3,18 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 木有枝博客
-subtitle: 真话说一半常是弥天大谎。——富兰克林
-description: 
-author: John Doe
+title: 毛毛de日常
+subtitle: 
+description: 清醒的人最荒唐 --毛不易
+author: nuoluan
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://b2.immyz.com
+url: http://maomao.nuoluan.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:title
+# permalink: blog/:title
 permalink_defaults:
 
 # Directory
@@ -28,7 +29,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year/:month/:day/:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -72,11 +73,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: maupassant
+theme: nuna
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Durling/myz_tech2.git
+  repo: https://github.com/Durling/maomao.git
   branch: gh-pages
