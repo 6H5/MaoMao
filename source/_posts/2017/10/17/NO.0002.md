@@ -1,7 +1,7 @@
 ---
 title: NO.0002 妈呀，露点了
 date: 2017-10-17 09:46:58
-tags:
+tags: daily
 ---
 
 ![Mou icon](http://mmimg.nuoluan.com/blog/20171017/1.jpg?imageView2/0/w/600)
