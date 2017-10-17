@@ -5,5 +5,6 @@ tags: video
 ---
 
 [毛毛小视频20171016v1-点击播放](http://mmimg.nuoluan.com/blog/20171016/v1.mp4 "小视频")
+
 [毛毛小视频20171017v1-点击播放](http://mmimg.nuoluan.com/blog/20171017/v1.mp4 "小视频")
 
