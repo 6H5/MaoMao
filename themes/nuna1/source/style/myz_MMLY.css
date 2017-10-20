@@ -25,3 +25,25 @@
     background-color: transparent;
     padding: 0 15px;
 }
+.MMLY-add {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 80px;
+    background: #dddddd;
+    z-index: 1;
+    text-align: center;
+}
+.MMLY-add p input{
+    width: 60%;
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+}
+.MMLY-add p button{
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #fff;
+    padding: 0 25px;
+    background-color: #fff;
+}

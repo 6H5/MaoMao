@@ -22,7 +22,12 @@
         timeout:3000  
     });
     $('main').on('click','.addLMsg-btn',function(){
-		alert('暂未开放')
+		// alert('暂未开放')
+        $('body .MMLY-add').remove()
+        $('body').append('<div class="MMLY-add"><p><input placeholder="邮箱"/></p><p><input placeholder="留言内容"/></p><p><button class="MMLY-add-btn">提交</button></p></div>')
+    })
+    $('body').on('click','.MMLY-add-btn',function(){
+        $('body .MMLY-add').remove()
     })
 }())
 
