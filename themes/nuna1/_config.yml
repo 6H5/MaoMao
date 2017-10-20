@@ -1,0 +1,44 @@
+menu:
+    home: /
+    archive: /archives/
+    about: /about
+
+favicon: /favicon.ico
+logo: http://mmimg.nuoluan.com/blog/common/logo2.jpg?imageView2/0/w/30
+
+# 首页文章默认封面
+thumbs: [http://mmimg.nuoluan.com/blog/20171016/1.jpg?imageView2/0/w/600,
+        http://mmimg.nuoluan.com/blog/20171016/2.jpg?imageView2/0/w/600,
+        http://mmimg.nuoluan.com/blog/20171017/1.jpg?imageView2/0/w/600,
+        http://mmimg.nuoluan.com/blog/20171017/2.jpg?imageView2/0/w/600,
+        http://mmimg.nuoluan.com/blog/20171017/3.jpg?imageView2/0/w/600,
+        http://mmimg.nuoluan.com/blog/20171017/4.jpg?imageView2/0/w/600,
+        http://mmimg.nuoluan.com/blog/20171017/5.jpg?imageView2/0/w/600,
+        http://mmimg.nuoluan.com/blog/20171017/6.jpg?imageView2/0/w/600,
+        http://mmimg.nuoluan.com/blog/20171017/7.jpg?imageView2/0/w/600]
+
+# Comment
+# disqus: pupa
+# duoshuo: xwartz
+
+# Analytics
+# google-analytics:
+# ga: UA-69822347-1
+# baidu-analytics:
+# ba: //hm.baidu.com/hm.js?b9e5254ddb0a9c4c4cd158df0d05a54c
+# qq mta
+# qq:
+    # sid: 500303098
+    # cid: 500303108
+# growingio
+# go: 90b580e047dd0007
+
+# theme version
+version: 1.0.3
+# theme branch
+branch: next
+# theme font cdn url
+font: //at.alicdn.com/t/font_1472710214_6648843.css
+# theme style cdn url
+css: //raw.githack.com/xwartz/hexo-theme-nuna/next/source/style/main.css
+# css: /style/main.css
