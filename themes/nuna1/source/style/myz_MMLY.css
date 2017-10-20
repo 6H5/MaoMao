@@ -6,15 +6,23 @@
     margin-bottom: 4rem;
 }
 .MMLY .ly-one{
-	border-bottom: dashed 1px #dddddd
+	border-bottom: dashed 1px #dddddd;
+    font-size: 16px;
 }
 .MMLY .ly-one .t{
     opacity: .5;
-    font-size: 15px;
+    font-size: 12px;
 }
 .MMLY .admin{
 	float:right;
 	opacity:.5;
 	font-weight:200;
 	font-size:12px;
+}
+.MMLY .addLMsg-btn{
+    height: 3rem;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    background-color: transparent;
+    padding: 0 15px;
 }
