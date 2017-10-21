@@ -30,7 +30,7 @@
     $('main').on('click','a.admin',function(){
         // alert('暂未开放')
         $('body .MMLY-admin').remove()
-        $('body').append('<div class="MMLY-add MMLY-admin"><p><input class="pwd" placeholder="管理密码"/></p><p><button class="MMLY-admin-ok-btn">确定</button></p><p><button class="MMLY-admin-cancel-btn">取消</button></p></div>')
+        $('body').append('<div class="MMLY-add MMLY-admin"><p><input text="password" class="pwd" placeholder="管理密码"/></p><p><button class="MMLY-admin-ok-btn">确定</button></p><p><button class="MMLY-admin-cancel-btn">取消</button></p></div>')
     })
     // 隐藏管理密码
     $('body').on('click','.MMLY-admin-cancel-btn',function(){
@@ -39,8 +39,12 @@
     // 确定管理密码
     $('body').on('click','.MMLY-admin-ok-btn',function(){
         var pwd=$('body').find('.MMLY-add input.pwd').val()
-        if(!pwd||$.md5(pwd)!='bc022864f419e5f201abb67179ee4acf'){
-            alert('管理密码不正确或不能为空')
+        if(!pwd){
+            alert('管理密码不能为空')
+            return
+        }
+        if($.md5(pwd)!='bc022864f419e5f201abb67179ee4acf'){
+            alert('管理密码不正确')
             return
         }
         window.location.href='http://h5.test.cloudm.com/n/news_myz/manage'
