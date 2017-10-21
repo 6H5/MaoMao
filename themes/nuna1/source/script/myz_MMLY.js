@@ -39,7 +39,7 @@
     // 确定管理密码
     $('body').on('click','.MMLY-admin-ok-btn',function(){
         var pwd=$('body').find('.MMLY-add input.pwd').val()
-        if(!pwd||pwd!='mm123'){
+        if(!pwd||$.md5(pwd)!='bc022864f419e5f201abb67179ee4acf'){
             alert('管理密码不正确或不能为空')
             return
         }
@@ -119,6 +119,6 @@
             timeout:3000  
         });
     })
-    
+
 }())
 
