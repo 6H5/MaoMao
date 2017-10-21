@@ -30,7 +30,7 @@
     $('main').on('click','a.admin',function(){
         // alert('暂未开放')
         $('body .MMLY-admin').remove()
-        $('body').append('<div class="MMLY-add MMLY-admin"><p><input text="password" class="pwd" placeholder="管理密码"/></p><p><button class="MMLY-admin-ok-btn">确定</button></p><p><button class="MMLY-admin-cancel-btn">取消</button></p></div>')
+        $('body').append('<div class="MMLY-add MMLY-admin"><p><input type="password" class="pwd" placeholder="管理密码"/></p><p><button class="MMLY-admin-ok-btn">确定</button></p><p><button class="MMLY-admin-cancel-btn">取消</button></p></div>')
     })
     // 隐藏管理密码
     $('body').on('click','.MMLY-admin-cancel-btn',function(){
