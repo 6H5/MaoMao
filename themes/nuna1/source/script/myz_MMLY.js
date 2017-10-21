@@ -18,25 +18,46 @@
                     })
                 }
                 $(window).on('load',function(){
-                    $(".paginator").after('<div class="MMLY"><h4>给毛毛的留言：<a class="admin" target="_blank" href="http://h5.test.cloudm.com/n/news_myz/manage">管理</a></h4>'+htmlDOM+'<p style="text-align:center;"><button class="addLMsg-btn">添加留言</button></p></div>');
+                    $(".paginator").after('<div class="MMLY"><h4>给毛毛的留言：<a class="admin" target="_blank" href="javascript:;">管理</a></h4>'+htmlDOM+'<p style="text-align:center;"><button class="addLMsg-btn">添加留言</button></p></div>');
                 })
             },
             timeout:3000  
         });
     }
     loadMMLY()
+
+    // 管理信息
+    $('main').on('click','a.admin',function(){
+        // alert('暂未开放')
+        $('body .MMLY-admin').remove()
+        $('body').append('<div class="MMLY-add MMLY-admin"><p><input class="pwd" placeholder="管理密码"/></p><p><button class="MMLY-admin-ok-btn">确定</button></p><p><button class="MMLY-admin-cancel-btn">取消</button></p></div>')
+    })
+    // 隐藏管理密码
+    $('body').on('click','.MMLY-admin-cancel-btn',function(){
+        $('body .MMLY-admin').remove()
+    })
+    // 确定管理密码
+    $('body').on('click','.MMLY-admin-ok-btn',function(){
+        var pwd=$('body').find('.MMLY-add input.pwd').val()
+        if(!pwd||pwd!='mm123'){
+            alert('管理密码不正确或不能为空')
+            return
+        }
+        window.location.href='http://h5.test.cloudm.com/n/news_myz/manage'
+    })
+
     // 显示增加留言弹框
     $('main').on('click','.addLMsg-btn',function(){
 		// alert('暂未开放')
         $('body .MMLY-add').remove()
-        $('body').append('<div class="MMLY-add"><p><input class="title" placeholder="留言者昵称/邮箱"/></p><p><input class="content" placeholder="留言内容"/></p><p><button class="MMLY-ok-btn">提交</button></p><p><button class="MMLY-cancel-btn">取消</button></p></div>')
+        $('body').append('<div class="MMLY-add"><p><input class="title" placeholder="留言者昵称/邮箱"/></p><p><input class="content" placeholder="留言内容"/></p><p><button class="MMLY-add-ok-btn">提交</button></p><p><button class="MMLY-add-cancel-btn">取消</button></p></div>')
     })
     // 隐藏增加留言弹框
-    $('body').on('click','.MMLY-cancel-btn',function(){
+    $('body').on('click','.MMLY-add-cancel-btn',function(){
         $('body .MMLY-add').remove()
     })
     // 确定添加留言
-    $('body').on('click','.MMLY-ok-btn',function(){
+    $('body').on('click','.MMLY-add-ok-btn',function(){
         var title=$('body').find('.MMLY-add input.title').val()
         var content=$('body').find('.MMLY-add input.content').val()
         if(!title||!content){
@@ -61,6 +82,7 @@
             timeout:3000  
         });
     })
+
     // 点赞
     $('body').on('click','span.zan',function(){
         // console.log(this)
@@ -97,5 +119,6 @@
             timeout:3000  
         });
     })
+    
 }())
 
