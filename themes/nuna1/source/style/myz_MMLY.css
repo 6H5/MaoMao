@@ -12,6 +12,11 @@
     opacity: .5;
     font-size: 12px;
 }
+.MMLY .ly-one .t span.zan {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -40px;
+}
 .MMLY .admin{
 	float:right;
 	opacity:.5;
@@ -52,3 +57,5 @@
     background-color: #fff;
     border-radius: 2px;
 }
+
+
