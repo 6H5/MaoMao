@@ -4,6 +4,8 @@
     text-align: left;
     padding: 0 1rem;
     margin-bottom: 4rem;
+    padding-top: 4rem;
+    border-top: solid 1px #dddddd;
 }
 .MMLY .ly-one{
 	border-bottom: dashed 1px #dddddd;
