@@ -113,7 +113,7 @@
             success:function(result) {  
                 console.log(result)
                 if(result.head.retcode==0){
-                    alert('操作成功')
+                    // alert('操作成功')
                     $(that).find('img').attr('src','../zan-'+status+'.png')
                     $(that).find('span').text(sort)
                 }else{
