@@ -14,7 +14,7 @@
                 var arr=result.data,htmlDOM=''
                 if(arr.length>0){
                     arr.forEach(function(n,i){
-                        htmlDOM+='<div class="ly-one"><p class="t"><span>'+getLocalTime(n.createtime)+'：</span><span style="float:right;"><span>来自'+n.title+'</span><span data-id='+n.id+' data-sort='+n.sort+' class="zan"><span>'+n.sort+'</span><img style="width:30px;" src="../zan-off.png"></span><span></p><p style="padding-right:100px;">'+n.content+'</p></div>'
+                        htmlDOM+='<div class="ly-one"><p class="t"><span>'+getLocalTime(n.createtime)+'：</span><span style="float:right;"><span>来自'+n.title+'</span><span data-id='+n.id+' data-sort='+n.sort+' class="zan"><span>'+n.sort+'</span><img style="width:20px;" src="../zan-off.png"></span><span></p><p style="padding-right:100px;">'+n.content+'</p></div>'
                     })
                 }
                 $(window).on('load',function(){
