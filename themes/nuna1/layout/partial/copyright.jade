@@ -3,4 +3,4 @@
     - var year = currentDate.getFullYear();
     - var start = config.startYear;
     - year = year == start ? year : (start ? start + ' - ' + year : year);
-    p © Copyright #{year} by #[a(href=config.url)!= config.author].
+    p © Copyright #{year} by #{config.author} #[a(href=config.url)!='返回首页']
