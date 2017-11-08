@@ -5,7 +5,7 @@
     function loadMMLY(){
         // $('body .MMLY').remove()
         $.ajax({
-            url:"http://h5.test.cloudm.com/n/news_myz/getdata?act=getNewsListJsonp&selectCategory=MM%E7%95%99%E8%A8%80&publishStatus=1",  
+            url:"http://h5.test.cloudm.com/n/myz/getdata?act=getNewsListJsonp&selectCategory=MM%E7%95%99%E8%A8%80&publishStatus=1",  
             dataType:'jsonp',
             data:'',
             jsonp:'callback',  
@@ -47,7 +47,7 @@
             alert('管理密码不正确')
             return
         }
-        window.location.href='http://h5.test.cloudm.com/n/news_myz/manage'
+        window.location.href='http://h5.test.cloudm.com/n/myz/manage'
     })
 
     // 显示增加留言弹框
@@ -70,7 +70,7 @@
         }
         // alert('ajax')
         $.ajax({  
-            url:"http://h5.test.cloudm.com/n/news_myz/api/addLeaveMsgJsonp?category=MM留言&title="+title+"&content="+content,
+            url:"http://h5.test.cloudm.com/n/myz/api/addLeaveMsgJsonp?category=MM留言&title="+title+"&content="+content,
             dataType:'jsonp',
             data:'',
             jsonp:'callback',  
@@ -106,7 +106,7 @@
         // alert('ajax')
         var that=this
         $.ajax({  
-            url:"http://h5.test.cloudm.com/n/news_myz/api/changeSortJsonp?id="+id+"&sort="+sort,
+            url:"http://h5.test.cloudm.com/n/myz/api/changeSortJsonp?id="+id+"&sort="+sort,
             dataType:'jsonp',
             data:'',
             jsonp:'callback',  
