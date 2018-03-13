@@ -3,12 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 毛毛de日常
+title: 毛毛（四狗）de日常
 subtitle: 四狗不定期更新
 description: 清醒的人最荒唐 --毛不易
 author: nuoluan
+authorCN: 诺銮网络
 language: zh-CN
 timezone:
+startYear: 2017
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -79,5 +81,6 @@ theme: nuna1
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Durling/maomao.git
+  # repo: https://github.com/Durling/maomao.git
+  repo: git@github.com:Durling/maomao.git
   branch: gh-pages

@@ -2,5 +2,5 @@
     - var currentDate = new Date();
     - var year = currentDate.getFullYear();
     - var start = config.startYear;
-    - year = year == start ? year : (start ? start + ' - ' + year : year);
-    p © Copyright #{year} by #{config.author} #[a(href=config.url)!='返回首页']
+    - year = year == start ? year : (start ? start + '-' + year : year);
+    p ©#{year} by #{config.authorCN} #[a(href=config.url)!='返回首页']
