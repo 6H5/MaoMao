@@ -4,18 +4,18 @@ menu:
     about: /about
 
 favicon: /favicon.ico
-logo: http://mmimg.nuoluan.com/blog/common/logo2.jpg?imageView2/0/w/30
+logo: http://img-mm.6h5.cn/blog/common/logo2.jpg?imageView2/0/w/30
 
 # 首页文章默认封面
-thumbs: [http://mmimg.nuoluan.com/blog/20171016/1.jpg?imageView2/0/w/600,
-        http://mmimg.nuoluan.com/blog/20171016/2.jpg?imageView2/0/w/600,
-        http://mmimg.nuoluan.com/blog/20171017/1.jpg?imageView2/0/w/600,
-        http://mmimg.nuoluan.com/blog/20171017/2.jpg?imageView2/0/w/600,
-        http://mmimg.nuoluan.com/blog/20171017/3.jpg?imageView2/0/w/600,
-        http://mmimg.nuoluan.com/blog/20171017/4.jpg?imageView2/0/w/600,
-        http://mmimg.nuoluan.com/blog/20171017/5.jpg?imageView2/0/w/600,
-        http://mmimg.nuoluan.com/blog/20180131/2/4.jpg?imageView2/0/w/600,
-        http://mmimg.nuoluan.com/blog/20180313/2gou/12.jpg?imageView2/0/w/600]
+thumbs: [http://img-mm.6h5.cn/blog/20171016/1.jpg?imageView2/0/w/600,
+        http://img-mm.6h5.cn/blog/20171016/2.jpg?imageView2/0/w/600,
+        http://img-mm.6h5.cn/blog/20171017/1.jpg?imageView2/0/w/600,
+        http://img-mm.6h5.cn/blog/20171017/2.jpg?imageView2/0/w/600,
+        http://img-mm.6h5.cn/blog/20171017/3.jpg?imageView2/0/w/600,
+        http://img-mm.6h5.cn/blog/20171017/4.jpg?imageView2/0/w/600,
+        http://img-mm.6h5.cn/blog/20171017/5.jpg?imageView2/0/w/600,
+        http://img-mm.6h5.cn/blog/20180131/2/4.jpg?imageView2/0/w/600,
+        http://img-mm.6h5.cn/blog/20180313/2gou/12.jpg?imageView2/0/w/600]
 
 # Comment
 # disqus: pupa

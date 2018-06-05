@@ -4,7 +4,7 @@ date: 2017-10-16 13:59:01
 tags: about
 ---
 
-![MaoMao](http://mmimg.nuoluan.com/blog/20171017/4.jpg?imageView2/0/w/600)
+![MaoMao](http://img-mm.6h5.cn/blog/20171017/4.jpg?imageView2/0/w/600)
 
 大名：猫不易（小名：毛毛、四狗）
 性别：Boy
