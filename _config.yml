@@ -6,15 +6,15 @@
 title: 毛毛（四狗）de日常
 subtitle: 四狗不定期更新
 description: 清醒的人最荒唐 --毛不易
-author: nuoluan
-authorCN: 诺銮网络
+author: Xindot
+authorCN: 心刀
 language: zh-CN
 timezone:
 startYear: 2017
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://maomao.nuoluan.com
+url: http://maomao.xindot.com
 root: /
 permalink: :year/:month/:day/:title.html
 # permalink: blog/:title
@@ -81,6 +81,6 @@ theme: nuna1
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  # repo: https://github.com/Durling/maomao.git
-  repo: git@github.com:Durling/maomao.git
+  # repo: https://github.com/Xindot/maomao.git
+  repo: https://github.com/Xindot/MaoMao.git
   branch: gh-pages
