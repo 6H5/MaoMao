@@ -1,0 +1,63 @@
+.MMLY {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    border-top: solid 1px #efefef;
+}
+.MMLY .ly-one{
+	border-bottom: dashed 1px #dddddd;
+}
+.MMLY .ly-one .t{
+    opacity: .5;
+    font-size: 12px;
+}
+.MMLY .ly-one .t span.zan {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.MMLY .admin{
+	float:right;
+	opacity:.5;
+	font-weight:200;
+	font-size:12px;
+}
+.MMLY .addLMsg-btn{
+    height: 3rem;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    background-color: transparent;
+    padding: 0 15px;
+}
+.MMLY-add {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 80px;
+    background: #dddddd;
+    z-index: 1;
+    text-align: center;
+}
+.MMLY-add p input{
+    width: 96%;
+    max-width: 960px;
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 2px;
+}
+.MMLY-add p button{
+    width: 96%;
+    max-width: 960px;
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #fff;
+    padding: 0 25px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+
